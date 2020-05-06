@@ -27,8 +27,7 @@ gem 'jbuilder', '~> 2.7'
 
 # Reduces boot times through caching; required in config/boot.rb
 gem 'bootsnap', '>= 1.4.2', require: false
-# Provides a better error page for Rails and other Rack apps.
-gem 'better_errors', '~> 2.7'
+
 
 # Bulma CSS
 gem 'bulma-rails', '~> 0.8.0'
@@ -48,7 +47,8 @@ group :development do
   # Spring speeds up development by keeping your application running in the background. Read more: https://github.com/rails/spring
   gem 'spring'
   gem 'spring-watcher-listen', '~> 2.0.0'
-
+  # Provides a better error page for Rails and other Rack apps.
+  gem 'better_errors'
   # Guard is a command line tool to easily handle events on file system modifications.
   gem 'guard', '~> 2.14', '>= 2.14.1'
   # reload the browser after changes to assets/helpers/tests 
