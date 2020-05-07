@@ -1,5 +1,5 @@
 # README
 
-Blog created for learning beginner Ruby on Rails features and the MVC design paattern.
+Blog created for learning beginner Ruby on Rails features and the MVC design pattern.
 
-![alt text](screenshots/rails-blog.png "Main Blog Page")
+<img src="screenshots/rails-blog.png" width="90%"></img>
